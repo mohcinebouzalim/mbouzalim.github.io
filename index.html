@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mohcine Bouzalim Portfolio</title>
+    <link rel="stylesheet" href="css/main.css"> 
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">home</a></li>
+      <li><a href="#about">about</a></li>
+      <li><a href="#portfolio">portfolio</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+
+  <div class="container-all">
+    <div class="welcome" id="home">
+      <button class="menu-button">
+          <svg class="hamburger" x="0px" y="0px"
+          viewBox="0 0 30 17" height="17" width="30" >
+            <g transform="translate(-15 -15)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+            <g transform="translate(-15 -9)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+            <g transform="translate(-15 -3)">
+              <rect x="15" y="16" class="st0" width="30" height="2"/>
+            </g>
+          </svg>
+          <svg class="close-icon" x="0px" y="0px"
+          viewBox="0 0 30 17" height="17" width="30">
+       <g transform="translate(-15 -15)">
+         <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+           35.8,16.5 37,17.7 	"/>
+       </g>
+       </svg>      
+      </button>
+
+      <h1>Bonjour, je suis<span>Mohcine Bouzalim</span></h1>
+    </div>
+
+    <section class="intro">
+      <div class="intro-left">
+        <img src="img/welcome-01.png" alt="a laptop on a wood table">
+      </div>
+      <div class="intro-middle">
+        <h2>Ma citation préférée:</h2>
+        <p>" Un voyage de mille lieues commence toujours par un premier pas. " - Tao Te King - Lao-Tseu</p>
+      </div>
+      <div class="intro-right">
+        <img src="img/welcome-02.png" alt="two computers and a laptop on a table">
+      </div>
+    </section>
+
+    <section class="about-me" id="about">
+      <img class="about-img" src="img/mohcine-portfolio.png" alt="A picture of Joe Portfolio">
+      <h1 class="about-title">Mohcine Bouzalim</h1>
+      <h2 class="about-subtitle">Data Scientist || Software Engineer</h2>
+      <div class="about-text">
+        <p>Elève ingénieur en dernière année à l'INPT (grande école d'ingénierie marocaine), filière : Data Engineer. Je suis intéressé par tout ce qui a relation avec l'intelligence artificielle et le computer science. Depuis le début de mon parcours, j'ai travaillé sur des projets qui impliquaient la modélisation de bases de données relationnelles et non relationnelles, l'analyse et la visualisation de données pour les modèles, les indicateurs de performance et la présentation de résultats basés sur des données. Créer des pipelines pour l'automatisation, les applications, la collecte et le traitement des données, et donc, développer des API pour les consommer et les contrôler.</p>
+        <p>En raison de ma formation d'ingénieur, je continue à travailler sur des problèmes d'algorithmique ,de data structures et d'optimisation. Mes spécialités sont l'apprentissage rapide de nouvelles compétences et de nouveaux langages de programmation, la résolution de problèmes, les principes de code propre, et de rendre la vie de chacun plus facile grâce à l'automatisation et aux compétences en matière de code.</p>
+      </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+      <h1>Projets </h1>
+      <div class="portfolio-items">
+
+        <!-- Portfolio item 1 -->
+        <figure class="portfolio-item">
+          <img class="portfolio-image" src="img/portfolio-01.jpg" alt="portfolio item">
+          <figcaption>
+            <h2 class="portfolio-title">Project Name</h2>
+            <p class="portfolio-desc">A short description could go right here</p>
+            <a href="#" class="portfolio-link">More info</a>
+          </figcaption>
+          
+          <!-- Portfolio modal 1 -->
+          <div class="portfolio-modal">
+            <button class="modal-close">
+              <svg x="0px" y="0px"
+                viewBox="0 0 30 17" height="17" width="30">
+                <g transform="translate(-15 -15)">
+                <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                35.8,16.5 37,17.7 	"/>
+                </g>
+            </svg>
+           </button>
+            <div class="portfolio-header header-one">
+              <div class="portfolio-title-box">
+                <h2 class="portfolio-title">Project Name</h2>    
+                <p class="portfolio-subtitle">Subtitle goes here</p>
+              </div>
+            </div> <!-- / portfolio-header -->
+            <div class="portfolio-content">
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-full-width" src="img/portfolio-01.jpg" alt="an image"> 
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-pull-left" src="img/portfolio-01.jpg" alt="an image"> 
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+               <img class="portfolio-pull-right" src="img/portfolio-01.jpg" alt="an image"> 
+              </div>
+          </div>
+          <!-- /modal -->
+        </figure>
+
+        <!-- Portfolio item 2 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="img/portfolio-02.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+            <div class="portfolio-modal">
+                <button class="modal-close">
+                  <svg x="0px" y="0px"
+                    viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                    35.8,16.5 37,17.7 	"/>
+                    </g>
+                </svg>
+               </button>
+                <div class="portfolio-header header-two">
+                  <div class="portfolio-title-box">
+                    <h2 class="portfolio-title">Project Name 2</h2>    
+                    <p class="portfolio-subtitle">Subtitle goes here</p>
+                  </div>
+                </div> <!-- / portfolio-header -->
+                <div class="portfolio-content">
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-full-width" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-left" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-right" src="img/portfolio-02.jpg" alt="an image"> 
+                  </div>
+              </div>
+          </figure>
+
+          <!-- Portfolio item 3 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="img/portfolio-03.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+			<div class="portfolio-modal">
+                <button class="modal-close">
+                  <svg x="0px" y="0px"
+                    viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                    35.8,16.5 37,17.7 	"/>
+                    </g>
+                </svg>
+               </button>
+                <div class="portfolio-header header-two">
+                  <div class="portfolio-title-box">
+                    <h2 class="portfolio-title">Project Name 2</h2>    
+                    <p class="portfolio-subtitle">Subtitle goes here</p>
+                  </div>
+                </div> <!-- / portfolio-header -->
+                <div class="portfolio-content">
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-full-width" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-left" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-right" src="img/portfolio-02.jpg" alt="an image"> 
+                  </div>
+              </div>
+          </figure>
+
+          <!-- Portfolio item 4 -->
+        <figure class="portfolio-item">
+            <img class="portfolio-image" src="img/portfolio-04.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+			<div class="portfolio-modal">
+                <button class="modal-close">
+                  <svg x="0px" y="0px"
+                    viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                    35.8,16.5 37,17.7 	"/>
+                    </g>
+                </svg>
+               </button>
+                <div class="portfolio-header header-two">
+                  <div class="portfolio-title-box">
+                    <h2 class="portfolio-title">Project Name 2</h2>    
+                    <p class="portfolio-subtitle">Subtitle goes here</p>
+                  </div>
+                </div> <!-- / portfolio-header -->
+                <div class="portfolio-content">
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-full-width" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-left" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-right" src="img/portfolio-02.jpg" alt="an image"> 
+                  </div>
+              </div>
+          </figure>
+
+          <!-- Portfolio item 5 -->
+        <figure class="portfolio-item featured">
+            <img class="portfolio-image" src="img/portfolio-05.jpg" alt="portfolio item">
+            <figcaption>
+              <h2 class="portfolio-title">Project Name</h2>
+              <p class="portfolio-desc">A short description could go right here</p>
+              <a href="#" class="portfolio-link">More info</a>
+            </figcaption>
+			<div class="portfolio-modal">
+                <button class="modal-close">
+                  <svg x="0px" y="0px"
+                    viewBox="0 0 30 17" height="17" width="30">
+                    <g transform="translate(-15 -15)">
+                    <polygon class="st0" points="31.2,23.5 37,29.3 35.8,30.5 30,24.7 24.2,30.5 23,29.3 28.8,23.5 23,17.7 24.2,16.5 30,22.3 
+                    35.8,16.5 37,17.7 	"/>
+                    </g>
+                </svg>
+               </button>
+                <div class="portfolio-header header-two">
+                  <div class="portfolio-title-box">
+                    <h2 class="portfolio-title">Project Name 2</h2>    
+                    <p class="portfolio-subtitle">Subtitle goes here</p>
+                  </div>
+                </div> <!-- / portfolio-header -->
+                <div class="portfolio-content">
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-full-width" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-left" src="img/portfolio-02.jpg" alt="an image"> 
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <p>Aenean mattis tristique elementum. Duis massa tellus, tempus non fermentum at, venenatis et augue. Phasellus tristique purus sed sagittis interdum. Duis luctus sapien justo, vel viverra ex convallis et. Maecenas suscipit lacus ut lectus mattis ornare. Vestibulum faucibus purus sit amet erat lobortis, tristique fringilla leo sodales. Interdum et malesuada fames ac ante.</p>
+                   <img class="portfolio-pull-right" src="img/portfolio-02.jpg" alt="an image"> 
+                  </div>
+              </div>
+          </figure>
+
+      </div>
+
+    </section>
+	
+	<div class="skills_div" id="skills_div">
+	    <section class="skills" id="skills">
+	    <h1>Compétences</h1>
+		<div class="skills_dashboard" id="skills_dashboard">
+		    <h2>Python Frameworks :</h2>
+			<img class="competences" src="img/python.jpg" alt="">
+			<h2>Visualisation des données :</h2>
+			<img class="competencess" src="img/visualisation.jpg" alt="">
+			<h2>Front-end :</h2>
+			<img class="competencess" src="img/frontend.jpg" alt="">
+			<h2>Back-end :</h2>
+			<img class="competencess" src="img/backend.jpg" alt="">
+			<h2>Bases de données :</h2>
+			<img class="competencess" src="img/db.jpg" alt="">
+			<h2>Cloud :</h2>
+			<img class="competencess" src="img/cloud.jpg" alt="">
+			<h2>Autres technologies :</h2>
+			<img class="competencess" src="img/autres.jpg" alt="">
+		</div>
+	</section>
+	</div>
+
+    <section class="contact" id="contact">
+      <h1>Contactez moi</h1>
+      <form action="">
+        <label class="name" class="name">Nom complet:
+            <input type="text" id="name">
+        </label>
+        
+        <label class="email" class="email">Email:
+          <input type="email" id="email">
+        </label>
+
+        <label message="message" class="message">Message:
+          <textarea name="" id="message"></textarea>
+        </label>
+
+        <input class="button form-button" type="submit" value="Envoyez">
+
+      </form>
+    </section>
+
+    <footer>
+      <p>Suivez moi</p>
+      <div class="social-icons">
+        <a class="social-icon" href="https://www.linkedin.com/in/mohcinebouzalim/" target="_blank"><img class="social-icon" src="img/linkedin.svg" alt="linkedin"></a>
+        <a class="social-icon" href="https://github.com/mohcinebouzalim/" target="_blank"><img class="social-icon" src="img/twitter.svg" alt="twitter"></a>
+        <a class="social-icon" href="https://github.com/mohcinebouzalim/" target="_blank"><img class="social-icon" src="img/github.svg" alt="github"></a>     
+      </div>
+      
+      <p class="copyright">Copyright 2020 Mohcine Bouzalim</p>
+    </footer>
+  </div>
+  <script src="js/nav.js"></script>
+  <script src="js/modal.js"></script>
+  
+</body> 
+</html>
