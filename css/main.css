@@ -788,6 +788,15 @@ nav a {
 .header-two {
   background-image: url(../img/portfolio-02.jpg); }
 
+.header-three {
+  background-image: url(../img/portfolio-03.jpg); }
+  
+.header-four {
+  background-image: url(../img/portfolio-04.jpg); }
+  
+.header-five {
+  background-image: url(../img/portfolio-05.jpg); }
+
 .portfolio-title-box {
   background: rgba(3, 175, 194, 0.75);
   padding: 3em 0 3em 3em;
